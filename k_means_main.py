@@ -8,7 +8,7 @@ parser.add_argument("--clusters", default=3, type=int, help="Number of clusters"
 parser.add_argument("--examples", default=200, type=int, help="Number of examples")
 parser.add_argument("--init", default="random", type=str, help="Initialization (random/kmeans++)")
 parser.add_argument("--iterations", default=20, type=int, help="Number of kmeans iterations to perfom")
-parser.add_argument("--plot", default=True, const=True, nargs="?", type=str, help="Plot the predictions")
+parser.add_argument("--plot", default='plot', const=True, nargs="?", type=str, help="Plot the predictions")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
 
