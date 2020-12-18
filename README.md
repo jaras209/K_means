@@ -1,11 +1,11 @@
-#K-means
+# K-means
 This project is the implementation of K-means clustering algorithm for unsupervised machine learning.
 
-##k_means
+## k_means
 The algorithm is implemented in `k_means.py`. The main method is
 `k_means`.
 
-##k_means_main
+## k_means_main
 The file `k_means_main.py` shows how to use the implemented algorithm on some artificial data.
 
 The example of the invocation of the program is:
