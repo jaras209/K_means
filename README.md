@@ -1,6 +1,9 @@
 # K-means
 This project is the implementation of K-means clustering algorithm for unsupervised machine learning.
 
+Task from [Machine Learning for Greenhorns – Winter 2020/21](https://ufal.mff.cuni.cz/courses/npfl129/2021-winter). Part of this code was provided by 
+[Milan Straka](https://ufal.mff.cuni.cz/milan-straka).
+
 ## k_means
 The algorithm is implemented in `k_means.py`. The main method is
 `k_means`.
